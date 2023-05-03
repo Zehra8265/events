@@ -1,0 +1,44 @@
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: pink;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+.d-none {
+    border: none;
+}
+
+.d-block {
+    border: 1px solid black;
+    width: 100%;
+    height: 90px;
+}
+
+.textarea {
+    background-color: white;
+    margin: 0 2%;
+}
+#displaytext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2%;
+   
+}
